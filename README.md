@@ -12,9 +12,9 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 
 ---
 
-## 🧩 Plan du rapport
+## Plan du rapport
 
-### 📌 Partie 1 : Développement et Implémentation
+### Partie 1 : Développement et Implémentation
 
 #### 1.1. Premiers essais – Compteur 8 bits
 - Implémentation en VHDL et Verilog
@@ -42,7 +42,7 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 
 ---
 
-### 📌 Partie 2 : Résultats et Interprétations
+### Partie 2 : Résultats et Interprétations
 
 #### 2.1. Résultats de synthèse TinyTapeout
 - Cellules utilisées
@@ -61,12 +61,6 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 
 ---
 
-## 📎 Auteurs
+## Auteurs
 
-Projet réalisé par Malek Bejaoui et Cossec Célian, encadré par Mathieu Escouteloup.
-
----
-
-## 📁 Lien vers le rapport
-
-👉 Le rapport complet est disponible dans ce dépôt dès qu'il sera finalisé.
+> Projet réalisé par Malek Bejaoui et Cossec Célian, encadré par Mathieu Escouteloup.
