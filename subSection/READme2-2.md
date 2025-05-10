@@ -24,3 +24,4 @@ Grâce à ces valeurs nous pouvons effectuer une régression linéaire du nombre
 
 ![Graphique RAM vs Cellules](../images/ram_vs_cells_regression.png)
 
+Avec cette régression nous en tirons une équation liant taille de la RAM et cellules utilisées:
