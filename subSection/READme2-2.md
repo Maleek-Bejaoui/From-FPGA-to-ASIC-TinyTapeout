@@ -25,3 +25,9 @@ Grâce à ces valeurs nous pouvons effectuer une régression linéaire du nombre
 ![Graphique RAM vs Cellules](../images/ram_vs_cells_regression.png)
 
 Avec cette régression nous en tirons une équation liant taille de la RAM et cellules utilisées:
+```
+Nombre de cellules utilisées = 34.45 x Taille_de_RAM(en octets) + 1496.26
+```
+Donc on peut estimer la taille de notre CPU sans RAM: environ 1500 cellules.
+
+Remarque: Pour 16 octets de RAM, on peut d
