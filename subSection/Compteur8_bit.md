@@ -62,7 +62,7 @@ L'action GitHub fournie avec le template exécutera automatiquement la synthèse
 Une fois le projet correctement structuré dans le template TinyTapeout, **aucune installation locale des outils de synthèse n’est nécessaire**.  
 L’action GitHub intégrée au dépôt exécute automatiquement la **chaîne complète de conception ASIC à l’aide d’OpenLane**, dès qu’un `push` est effectué.
 
-🛠️ Le flot de conception suit ces étapes fondamentales :
+ *Le flot de conception suit ces étapes fondamentales* :
 
 1. **Synthesis** – Transformation du code HDL (Verilog) en netlist logique.
 2. **Floorplanning** – Définition de l'organisation physique des blocs sur la puce.
@@ -72,9 +72,9 @@ L’action GitHub intégrée au dépôt exécute automatiquement la **chaîne co
    - **DRC (Design Rule Check)** – Vérification du respect des règles technologiques.
    - **STA (Static Timing Analysis)** – Analyse temporelle pour garantir les performances.
 
-💡 À l’entrée, on fournit un fichier Verilog ; à la sortie, on obtient un **fichier GDSII**, standard pour l’envoi en fabrication.
+À l’entrée, on fournit un fichier Verilog ; à la sortie, on obtient un **fichier GDSII**, standard pour l’envoi en fabrication.
 
 📚 Pour plus de détails sur les fichiers générés par OpenLane :  
-🔗 [OpenLane Output Files – Z2A Course](https://www.zerotoasiccourse.com/using-openlane/#output-files)
+🔗 [OpenLane Output Files](https://www.zerotoasiccourse.com/post/openlane_output_files/)
 
 
