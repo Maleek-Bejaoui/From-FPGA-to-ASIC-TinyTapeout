@@ -58,3 +58,8 @@ Pour intégrer un projet Verilog dans la plateforme TinyTapeout, voici les étap
 L'action GitHub fournie avec le template exécutera automatiquement la synthèse ASIC à l'aide d'[OpenLane](https://www.zerotoasiccourse.com/terminology/openlane/).
 
 
+---
+
+#### Obtention des Résultats
+
+Dans la partie GDS de "Actions", on peut observer plusieurs résultats, comme l'occupation sur la carte de notre projet, le nombre (et le type) de composants utilisés, une vue 2D et 3D de notre carte.
