@@ -34,7 +34,7 @@ Donc on peut estimer la taille de **notre CPU sans RAM: environ 1500 cellules.**
 
 De la même manière on peut faire le même travail pour les cellules combinatoires et les cellules séquentielles:  
 
-![Graphique combin_seq VS ram](../images/image.png)
+![Graphique combin_seq VS ram](../images/Combin_seq.png)
 
 
 Avec ça on peut apporter plus de préciser sur notre projet sans RAM, qui contiendrait 
