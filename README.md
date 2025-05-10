@@ -28,13 +28,13 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 - Ce qu’il faut éviter lors de la réécriture
 - Débogage par test croisé VHDL ↔ Verilog
 
-#### [1.4. Outils et environnement](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-4.md))
+#### [1.4. Outils et environnement](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-4.md)
 - Vivado (simulation, test FPGA)
 - Yosys (synthèse)
 - GitHub (gestion de projet)
 - TinyTapeout (flow de fabrication ASIC)
 
-#### 1.5. Comparaison VHDL vs Verilog
+#### [1.5. Comparaison VHDL vs Verilog](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-5.md)
 - Retour d’expérience sur les deux langages
 - Problèmes rencontrés et solutions adoptées
 
