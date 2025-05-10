@@ -32,4 +32,5 @@ Donc on peut estimer la taille de **notre CPU sans RAM: environ 1500 cellules.**
 
 
 
-*Remarque*: Pour 16 octets de RAM, on peut voir la proportion de combinatoire et de séquentiel, par exemple, pour 
+De la même manière on peut faire le même travail pour les cellules combinatoires et les cellules séquentielles:  
+![Graphique combin_seq VS ram](../images/ram_vs_cells_regression.png)
