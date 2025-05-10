@@ -44,7 +44,7 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 
 ### Partie 2 : Résultats et Interprétations
 
-#### [2.1. Résultats du compteur 8 bits](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/Resultats_Compteur8bits)
+#### [2.1. Résultats du compteur 8 bits](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/Resultats_Compteur8bits.md)
   - Taille
   - Place occupée
   - Cellules utilisées
