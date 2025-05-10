@@ -16,21 +16,21 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 
 ### Partie 1 : Développement et Implémentation
 
-#### [1.1. Outils et environnement](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-4.md)
+#### [1.1. Outils et environnement](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-1.md)
 - Vivado (simulation, test FPGA)
 - Yosys (synthèse)
 - GitHub (gestion de projet)
 - TinyTapeout (flow de fabrication ASIC)
 
-#### [1.2. Premiers essais – Compteur 8 bits](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-1.md)
+#### [1.2. Premiers essais – Compteur 8 bits](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-2.md)
 - Implémentation en VHDL et Verilog
 - Simulation sur Vivado et synthèse TinyTapeout
 
-#### [1.3. Tentative échouée – CPU 16 bits en VHDL](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-2.md)
+#### [1.3. Tentative échouée – CPU 16 bits en VHDL](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-3.md)
 - Architecture initiale pour FPGA
 - Problèmes avec la traduction automatique VHDL → Verilog (Yosys)
 
-#### [1.4. Passage au Verilog manuel](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-3.md)
+#### [1.4. Passage au Verilog manuel](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-4.md)
 - Ce qu’il faut éviter lors de la réécriture
 - Débogage par test croisé VHDL ↔ Verilog
 
