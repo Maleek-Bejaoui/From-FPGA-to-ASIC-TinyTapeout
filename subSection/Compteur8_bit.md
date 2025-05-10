@@ -63,6 +63,7 @@ Une fois le projet correctement structuré dans le template TinyTapeout, **aucun
 L’action GitHub intégrée au dépôt exécute automatiquement la **chaîne complète de conception ASIC à l’aide d’OpenLane**, dès qu’un `push` est effectué.
 
  *Le flot de conception suit ces étapes fondamentales* :
+ 
  ![float de conception](./../images/steps.png)
 
 1. **Synthesis** – Transformation du code HDL (Verilog) en netlist logique.
