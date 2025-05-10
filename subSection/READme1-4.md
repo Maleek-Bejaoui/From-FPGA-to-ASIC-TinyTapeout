@@ -1,7 +1,6 @@
 ##  1.4 – Outils et Environnement
 
-Face aux limitations rencontrées avec les traductions automatiques VHDL → Verilog, nous avons fait le choix de **réécrire manuellement notre CPU 16 bits** en Verilog.  
-Cette étape a demandé plus de temps, mais elle nous a permis d’avoir **un contrôle total sur la structure, la lisibilité et la synthétisabilité** du design dans le flot TinyTapeout.
+Pour mener à bien notre projet de conception ASIC avec **TinyTapeout**, nous avons utilisé plusieurs outils logiciels et plateformes collaboratives. Chacun d'entre eux a joué un rôle spécifique dans le développement, la simulation et la gestion du projet. Vous trouverez ci-dessous une présentation des principaux outils utilisés et leur contribution au projet.
 
 ---
 
