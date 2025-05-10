@@ -31,11 +31,14 @@ Nombre de cellules utilisées = 34.45 x Taille_de_RAM(en octets) + 1496.26
 Donc on peut estimer la taille de **notre CPU sans RAM: environ 1500 cellules.**
 
 
-
 De la même manière on peut faire le même travail pour les cellules combinatoires et les cellules séquentielles:  
 
 ![Graphique combin_seq VS ram](../images/Combin_seq.png)
 
 
 Avec ça on peut apporter plus de préciser sur notre projet sans RAM, qui contiendrait approximativement 722 cellules combinatoires pour 453 cellules séquentielles et d'autres cellules diverses (delays ou constantes).
-On voit bien que la partie séquentielle augmente plus vite que la partie combinatoire ce qui est logique puisque les mémoires font principalemement parties de la RAM
+
+La dominance de l'augmentation des cellules séquentielles par rapport aux cellules combinatoires est cohérente avec l'architecture d'un CPU, où les registres et les mémoires internes sont fortement dépendants de la taille de la RAM.
+
+
+L'analyse combinatoire/séquentielle souligne la prépondérance de la RAM dans l'utilisation des ressources, ce qui est en accord avec l'architecture d'un CPU avec stockage interne.
