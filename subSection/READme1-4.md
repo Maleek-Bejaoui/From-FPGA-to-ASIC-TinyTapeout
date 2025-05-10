@@ -1,4 +1,4 @@
-##  1.3 – Passage au Verilog manuel
+##  1.4 – Passage au Verilog manuel
 
 Face aux limitations rencontrées avec les traductions automatiques VHDL → Verilog, nous avons fait le choix de **réécrire manuellement notre CPU 16 bits** en Verilog.  
 Cette étape a demandé plus de temps, mais elle nous a permis d’avoir **un contrôle total sur la structure, la lisibilité et la synthétisabilité** du design dans le flot TinyTapeout.
