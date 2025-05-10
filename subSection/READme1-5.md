@@ -1,4 +1,4 @@
-## 1.1. Comparaison VHDL vs Verilog
+## 1.5. Comparaison VHDL vs Verilog
 
 ### Retour d’expérience sur les deux langages
 
