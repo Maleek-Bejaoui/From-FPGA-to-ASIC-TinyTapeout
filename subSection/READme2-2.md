@@ -28,6 +28,8 @@ Avec cette régression nous en tirons une équation liant taille de la RAM et ce
 ```
 Nombre de cellules utilisées = 34.45 x Taille_de_RAM(en octets) + 1496.26
 ```
-Donc on peut estimer la taille de *notre CPU sans RAM: environ 1500 cellules.*
+Donc on peut estimer la taille de **notre CPU sans RAM: environ 1500 cellules.**
 
-Remarque: Pour 16 octets de RAM, on peut d
+
+
+*Remarque*: Pour 16 octets de RAM, on peut voir la proportion de combinatoire et de séquentiel, par exemple, pour 
