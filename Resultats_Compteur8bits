@@ -1,1 +1,17 @@
+## 2.1.  Résultats : Compteur 8 bits
+
+### Obtention des résultats
+
+Avec le compteur 8 bits précédemment détaillé, nous avons pu observer les résultats dans la partie GDS de "Actions" sur Github.
+
+
+### Résultats obtenus
+
+Github nous donne des informtions importantes dans la réalisation d'un ASIC, comme les cellules utilisées, la taille de notre Projt sur l'ASIC choisi et même une vue 2D et 3D de notre projet sur l'ASIC:
+
+1. **Écriture manuelle** du code Verilog, équivalent fonctionnel au design VHDL.
+2. **Simulation** du module sous **Vivado** pour valider le comportement RTL.
+3. **Implémentation sur carte FPGA Artix-7**.
+
+Cette double implémentation (VHDL et Verilog) nous a permis de mieux comprendre les contraintes de portabilité et les exigences de la plateforme TinyTapeout.
 
