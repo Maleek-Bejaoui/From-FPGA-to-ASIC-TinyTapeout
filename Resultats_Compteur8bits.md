@@ -15,3 +15,4 @@ GitHub nous donne des informations importantes dans la réalisation d'un ASIC, c
       - Cellules diverses (constantes, delays) : 18
       - Cellules de remplissage (fill cells) et cellules de connexion (tap cells)
   - La vue 2D du compteur sur la carte est affichée ci-dessous : 
+![Compteur8bits](images/Compteur8bits2D.png)
