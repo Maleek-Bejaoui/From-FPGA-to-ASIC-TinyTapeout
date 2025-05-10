@@ -18,5 +18,9 @@ En tant qu’étudiants en électronique, nous avons utilisé à la fois **VHDL*
 - L’outil Yosys ne gère pas toujours correctement certains aspects spécifiques au VHDL : **types complexes, concaténations implicites, structures internes imbriquées**.
 - Pour répondre aux contraintes de **synthèse stricte imposées par TinyTapeout**, nous avons finalement opté pour une **réécriture manuelle bloc par bloc** du design en **Verilog synthétisable**.
 
+Pour mieux comprendre les erreurs et avertissements générés, nous nous sommes appuyés sur la documentation officielle de Verilator :  
+🔗 [documentation officielle des warnings Verilator](https://verilator.org/guide/latest/warnings.html#)
+
+
 💡 *Conclusion : même si VHDL est robuste pour les projets FPGA académiques, Verilog s’est imposé comme la meilleure option pour l’intégration dans un flot ASIC open source tel que TinyTapeout.*
 
