@@ -1,4 +1,4 @@
-## 2.2.  Résultats du CPU
+## 2.2.  Résultats et Analyse du CPU
 
 ### Obtention des résultats
 
