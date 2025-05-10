@@ -6,7 +6,7 @@ Il s'agit d'une première étape dans notre démarche de développement d'un pro
 
 ---
 
-## 1.1.  Premiers essais : Compteur 8 bits
+## 1.2.  Premiers essais : Compteur 8 bits
 
 ###  Implémentation en VHDL
 
