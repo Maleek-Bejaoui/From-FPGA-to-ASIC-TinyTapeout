@@ -2,7 +2,7 @@
 
 ### Obtention des résultats
 
-De la même manière que pour le compteur 8 bits précédemment détaillé, nous avons pu observer les résultats dans la partie GDS de "Actions" sur Github.
+De la même manière que pour le compteur 8 bits et le CPU précédemment détaillé, nous avons pu observer les résultats dans la partie GDS de "Actions" sur Github.
 
 ### Résultats obtenus
 
@@ -14,10 +14,11 @@ Ainsi on a obtenu les résultats suivants pour notre CPU
 
 | RAM (octets) | Cellules utilisées |
 |--------------|--------------------|
-| 16           | 2040               |
-| 32           | 2595               |
-| 64           | 3719               |
-| 128          | 5898               |
+| 16           | 6931               |
+| 32           | 7465               |
+| 64           | 8530               |
+| 96           | 9750               |
+| 128          | 10778              |
 
 
 Grâce à ces valeurs nous pouvons effectuer une régression linéaire du nombre totale de cellules utilisées en fonction de la taille de la RAM en octets:
