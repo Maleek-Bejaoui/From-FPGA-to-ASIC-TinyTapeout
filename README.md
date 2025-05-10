@@ -44,17 +44,22 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 
 ### Partie 2 : Résultats et Interprétations
 
-#### 2.1. Résultats de synthèse TinyTapeout
+#### 2.1. Résultats du compteur 8 bits
+  - Taille
+  - Place occupée
+  - Cellules utilisées
+
+#### 2.2. Résultats du CPU
 - Cellules utilisées
 - Optimisation mémoire
 - Densité et limites physiques
 
-#### 2.2. Analyse et interprétation
+#### 2.3. Analyse et interprétation
 - Courbes et équations RAM vs Cellules
 - Analyse des performances
 - Observations sur la scalabilité
 
-#### 2.3. Enseignements
+#### 2.4. Enseignements
 - Bonnes pratiques pour TinyTapeout
 - Ce qu’il faut éviter
 - Améliorations futures possibles
