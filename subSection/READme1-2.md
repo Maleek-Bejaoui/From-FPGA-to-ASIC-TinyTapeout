@@ -8,7 +8,7 @@ Fonctionnel en simulation et en pratique, il exploitait principlement trois modu
 - unité de contrôle.
 - unité de traitement.
 - mémoire RAM interne(architecture de Von Neumann). 
-![Architecture CPU](./images/archProcess.png)
+![Architecture CPU](./../images/archProcess.png)
 
 ---
 
