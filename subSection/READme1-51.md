@@ -1,4 +1,4 @@
-##  1.5 – Outils et Environnement
+##  1.1 – Outils et Environnement
 
 Pour mener à bien notre projet de conception ASIC avec **TinyTapeout**, nous avons utilisé plusieurs outils logiciels et plateformes collaboratives. Chacun d'entre eux a joué un rôle spécifique dans le développement, la simulation et la gestion du projet. Vous trouverez ci-dessous une présentation des principaux outils utilisés et leur contribution au projet.
 
