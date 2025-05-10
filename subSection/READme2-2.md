@@ -37,4 +37,4 @@ De la même manière on peut faire le même travail pour les cellules combinatoi
 ![Graphique combin_seq VS ram](../images/Combin_seq.png)
 
 
-Avec ça on peut apporter plus de préciser sur notre projet sans RAM, qui contiendrait 
+Avec ça on peut apporter plus de préciser sur notre projet sans RAM, qui contiendrait approximativement
