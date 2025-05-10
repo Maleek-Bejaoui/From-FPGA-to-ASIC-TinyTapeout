@@ -1,4 +1,7 @@
-## 2.2.  Résultats et Analyse du CPU
+## 2.2.  Résultats et Analyse du CPU RISC_V
+
+### Travail réalisé
+Ici des codes en Systme Verilog nous ont été fournis. Il s'agissait d'un CPU RISC V. Après quelques modifications effectuées sur ce code (  ) pour pouvoir basculé le projet sur github, nous avons complété le fichier top.v pour bien associé les signaux et permettre l'utilisation de TInyTapeout.
 
 ### Obtention des résultats
 
@@ -6,9 +9,9 @@ De la même manière que pour le compteur 8 bits et le CPU précédemment détai
 
 ### Résultats obtenus
 
-GitHub nous fournit des informations essentielles pour la réalisation d'un ASIC, telles que les cellules utilisées, la taille de notre projet sur l'ASIC choisi, ainsi que des vues en 2D et 3D de notre projet sur la puce.
+GitHub nous fournit des informations clés pour la conception d'un ASIC, notamment les cellules utilisées, l'empreinte de notre projet sur l'ASIC sélectionné, ainsi que des visualisations 2D et 3D de notre projet sur la puce.
 
-Nous avons fait varier la taille de la RAM ainsi que celle de la puce. Nous sommes parti d'une puce de taille maximale: 8x2 ce qui vaut 1336x216 µm(taille modifiable dans info.yaml).
+Nous avons fait varier la taille de la RAM.
 Ainsi on a obtenu les résultats suivants pour notre CPU
 
 
@@ -27,24 +30,9 @@ Grâce à ces valeurs nous pouvons effectuer une régression linéaire du nombre
 
 Avec cette régression nous en tirons une équation liant taille de la RAM et cellules utilisées:
 ```
-Nombre de cellules utilisées = 34.45 x Taille_de_RAM(en octets) + 1496.26
+Nombre de cellules utilisées = 34.68 x Taille_de_RAM(en octets) + 6360.54
 ```
-Donc on peut estimer la taille de **notre CPU sans RAM: environ 1500 cellules.**
+Donc on peut estimer la taille de **notre CPU RISC V sans RAM: environ 6 360 cellules.**
 
 
-De la même manière on peut faire le même travail pour les cellules combinatoires et les cellules séquentielles:  
-
-![Graphique combin_seq VS ram](../images/RISCVvsRAM.png)
-
-
-Avec ça on peut apporter plus de préciser sur notre projet sans RAM, qui contiendrait approximativement 722 cellules combinatoires pour 453 cellules séquentielles et d'autres cellules diverses (delays ou constantes).
-
-La dominance de l'augmentation des cellules séquentielles par rapport aux cellules combinatoires est cohérente avec l'architecture d'un CPU, où les registres et les mémoires internes sont fortement dépendants de la taille de la RAM.
-
-
-L'analyse combinatoire/séquentielle souligne la prépondérance de la RAM dans l'utilisation des ressources, ce qui est en accord avec l'architecture d'un CPU avec stockage interne.
-
-
-### Optimisation mémoire
-
-L'optimisation mémoire dans un CPU vise à équilibrer l'utilisation des ressources pour réduire la taille de la puce tout en maintenant des performances adéquates. Nos résultats montrent qu'en augmentant la taille de la RAM, le nombre de cellules utilisées croît linéairement, en particulier pour les cellules séquentielles, liées à la gestion de la mémoire interne. Cette relation souligne l'impact majeur de la RAM sur la consommation de ressources. Réduire la taille de la RAM permet de diminuer les cellules utilisées, mais cela doit être équilibré avec les besoins en stockage du CPU. Ainsi, l'optimisation mémoire consiste à trouver la taille optimale de la RAM pour un compromis entre performance et taille de la puce.
+Ce petit  travail finam nous a permis de maîtriser la conception d'un CPU RISC-V et d'appréhender l'impact des ressources mémoire sur la taille du circuit intégré. Grâce à l'utilisation de TinyTapeout et GitHub, nous avons observé un gain de temps à la génération des résultats et des visualisations. La régression linéaire nous a permis de prédire le nombre de cellules nécessaires en fonction de la taille de la RAM, offrant ainsi une méthode efficace pour anticiper les besoins en ressources. En somme, cette expérience nous a préparés à concevoir et analyser rapidement des ASICs pour des projets futurs.
