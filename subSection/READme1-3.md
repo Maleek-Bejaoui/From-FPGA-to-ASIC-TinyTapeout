@@ -29,4 +29,12 @@ Pour **accélérer le débogage** de chaque composant recodé en Verilog, nous a
   - valider chaque module indépendamment,
   - avancer plus efficacement et en toute confiance.
 
+La méthode de validation est simple, basée sur **trois étapes répétées pour chaque bloc** :
+
+1. **Traduction manuelle** d’un composant du CPU depuis VHDL vers Verilog.
+2. **Simulation RTL** dans Vivado pour vérifier que le module fonctionne comme prévu.
+3. **Implémentation sur carte FPGA (Artix-7)** pour tester le comportement réel du composant dans un environnement physique.
+
+⚠️ Ce processus est essentiel car **la simulation seule ne suffit pas toujours** : certains modules peuvent fonctionner parfaitement en simulation, mais présenter des dysfonctionnements lors de l’implémentation réelle sur FPGA (ex : problèmes de timing, d’initialisation ou de synchronisation).
+
 Grâce à cette approche hybride, nous avons pu corriger les incompatibilités **au fur et à mesure**, avant d'intégrer chaque bloc dans le design final Verilog destiné à TinyTapeout.
