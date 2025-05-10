@@ -22,7 +22,7 @@ Ainsi on a obtenu les résultats suivants pour notre CPU
 
 Grâce à ces valeurs nous pouvons effectuer une régression linéaire du nombre totale de cellules utilisées en fonction de la taille de la RAM en octets:
 
-![Graphique RAM vs Cellules](../images/ram_vs_cells_regression.png)
+![Graphique RAM vs Cellules](../images/RAM_Cell_CPU.png)
 
 Avec cette régression nous en tirons une équation liant taille de la RAM et cellules utilisées:
 ```
