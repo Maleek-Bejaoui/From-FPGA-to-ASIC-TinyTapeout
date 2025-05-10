@@ -24,10 +24,9 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 - Architecture initiale pour FPGA
 - Problèmes avec la traduction automatique VHDL → Verilog (Yosys)
 
-#### 1.3. Passage au Verilog manuel
-- Abandon de la traduction automatique
-- Réécriture bloc par bloc du CPU en Verilog
-- Ajustements pour la synthèse : RAM, interfaces, etc.
+#### [1.3. Passage au Verilog manuel](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-3.md)
+- Ce qu’il faut éviter lors de la réécriture
+- Débogage par test croisé VHDL ↔ Verilog
 
 #### 1.4. Outils et environnement
 - Vivado (simulation, test FPGA)
