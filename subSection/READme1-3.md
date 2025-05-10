@@ -1,4 +1,4 @@
-##  1.2. Tentative échouée – CPU 16 bits en VHDL
+##  1.3. Tentative échouée – CPU 16 bits en VHDL
 
 ###  Architecture initiale pour FPGA
 
