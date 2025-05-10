@@ -1,4 +1,4 @@
-Dme# From-FPGA-to-ASIC-TinyTapeout
+# From-FPGA-to-ASIC-TinyTapeout
 
 Ce projet a pour but de concevoir un processeur simple en utilisant la plateforme open source [TinyTapeout](https://tinytapeout.com/). Il s’inscrit dans une démarche pédagogique visant à explorer les limites de la synthèse ASIC à partir de designs initialement conçus pour FPGA.
 
