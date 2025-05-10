@@ -47,20 +47,14 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
   - Place occupée
   - Cellules utilisées
 
-#### 2.2. Résultats du CPU
+#### 2.2. Résultats du CPU 16 bit 
 - Cellules utilisées
 - Optimisation mémoire
-- Densité et limites physiques
 
-#### 2.3. Analyse et interprétation
-- Courbes et équations RAM vs Cellules
-- Analyse des performances
-- Observations sur la scalabilité
+#### 2.3. Résultats du CPU RISC_V
+- Cellules utilisées
+- Optimisation mémoire
 
-#### 2.4. Enseignements
-- Bonnes pratiques pour TinyTapeout
-- Ce qu’il faut éviter
-- Améliorations futures possibles
 
 ---
 
