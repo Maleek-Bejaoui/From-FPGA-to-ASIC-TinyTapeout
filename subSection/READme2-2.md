@@ -37,4 +37,5 @@ De la même manière on peut faire le même travail pour les cellules combinatoi
 ![Graphique combin_seq VS ram](../images/Combin_seq.png)
 
 
-Avec ça on peut apporter plus de préciser sur notre projet sans RAM, qui contiendrait approximativement
+Avec ça on peut apporter plus de préciser sur notre projet sans RAM, qui contiendrait approximativement 722 cellules combinatoires pour 453 cellules séquentielles et d'autres cellules diverses (delays ou constantes).
+On voit bien que la partie séquentielle augmente plus vite que la partie combinatoire ce qui est logique puisque les mémoires font principalemement parties de la RAM
