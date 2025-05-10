@@ -16,7 +16,7 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 
 ### Partie 1 : Développement et Implémentation
 
-#### [1.1. Premiers essais – Compteur 8 bits](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/Compteur8_bit.md)
+#### [1.1. Premiers essais – Compteur 8 bits](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme1-1.md)
 - Implémentation en VHDL et Verilog
 - Simulation sur Vivado et synthèse TinyTapeout
 
