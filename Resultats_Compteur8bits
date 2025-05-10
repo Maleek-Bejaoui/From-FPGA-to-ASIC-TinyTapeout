@@ -15,6 +15,5 @@ Github nous donne des informtions importantes dans la réalisation d'un ASIC, co
       Buffers: 5
       Cellules diverses (constantes, delays): 18
       Cellules de Remplissage et Cellules de connexion
-
-Cette double implémentation (VHDL et Verilog) nous a permis de mieux comprendre les contraintes de portabilité et les exigences de la plateforme TinyTapeout.
-
+  - La vue 2D du compteur sur la carte est affichée ci dessous: 
+![Compteur8bits](images/Compteur8bits2D.png)
