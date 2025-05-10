@@ -8,10 +8,13 @@ Avec le compteur 8 bits précédemment détaillé, nous avons pu observer les r�
 ### Résultats obtenus
 
 Github nous donne des informtions importantes dans la réalisation d'un ASIC, comme les cellules utilisées, la taille de notre Projt sur l'ASIC choisi et même une vue 2D et 3D de notre projet sur l'ASIC:
-
-1. **Écriture manuelle** du code Verilog, équivalent fonctionnel au design VHDL.
-2. **Simulation** du module sous **Vivado** pour valider le comportement RTL.
-3. **Implémentation sur carte FPGA Artix-7**.
+  - En ce qui concerne l'occupation de notre compteur sur la carte, elle est 2.633 %, on voit bien que le compteur était un projet simple pour concevoir notre premier AISC et "se faire la main" sur le sujet.
+  - Les cellules utilisées sont: 
+      Des cellules logiques (NAND OR AND...): 23
+      Des cellules combinatoires (FLIP FLOP): 8
+      Buffers: 5
+      Cellules diverses (constantes, delays): 18
+      Cellules de Remplissage et Cellules de connexion
 
 Cette double implémentation (VHDL et Verilog) nous a permis de mieux comprendre les contraintes de portabilité et les exigences de la plateforme TinyTapeout.
 
