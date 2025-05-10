@@ -47,11 +47,11 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
   - Place occupée
   - Cellules utilisées
 
-#### 2.2. Résultats du CPU 16 bit 
+#### [2.2. Résultats et analyse du CPU 16 bit](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme2-2.md)
 - Cellules utilisées
 - Optimisation mémoire
 
-#### 2.3. Résultats du CPU RISC_V
+#### [2.3. Résultats et analyse du CPU RISC_V](https://github.com/Maleek-Bejaoui/From-FPGA-to-ASIC-TinyTapeout/blob/main/subSection/READme2-3.md)
 - Cellules utilisées
 - Optimisation mémoire
 
