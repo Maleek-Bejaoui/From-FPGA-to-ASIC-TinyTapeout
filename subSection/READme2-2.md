@@ -42,3 +42,9 @@ La dominance de l'augmentation des cellules séquentielles par rapport aux cellu
 
 
 L'analyse combinatoire/séquentielle souligne la prépondérance de la RAM dans l'utilisation des ressources, ce qui est en accord avec l'architecture d'un CPU avec stockage interne.
+
+
+### Optimisation mémoire
+
+L'optimisation mémoire dans un CPU vise à équilibrer l'utilisation des ressources pour réduire la taille de la puce tout en maintenant des performances adéquates. Nos résultats montrent qu'en augmentant la taille de la RAM, le nombre de cellules utilisées croît linéairement, en particulier pour les cellules séquentielles, liées à la gestion de la mémoire interne. Cette relation souligne l'impact majeur de la RAM sur la consommation de ressources. Réduire la taille de la RAM permet de diminuer les cellules utilisées, mais cela doit être équilibré avec les besoins en stockage du CPU. Ainsi, l'optimisation mémoire consiste à trouver la taille optimale de la RAM pour un compromis entre performance et taille de la puce.
+
