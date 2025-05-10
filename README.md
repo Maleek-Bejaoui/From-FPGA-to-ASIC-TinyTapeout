@@ -4,7 +4,7 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 
 ---
 
-## 🛠 Objectifs du projet
+## Objectifs du projet
 
 - Implémenter un compteur 8 bits simple comme premier test.
 - Migrer un CPU 16 bits depuis une version VHDL utilisée sur FPGA vers ASIC sur TinyTapeout.
