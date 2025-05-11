@@ -1,4 +1,4 @@
-## 2.2.  Résultats et Analyse du CPU RISC_V
+## 2.3.  Résultats et Analyse du CPU RISC_V
 
 ### Travail réalisé
 Ici des codes en Systme Verilog nous ont été fournis. Il s'agissait d'un CPU RISC V. Après quelques modifications effectuées sur ce code (  ) pour pouvoir basculé le projet sur github, nous avons complété le fichier top.v pour bien associé les signaux et permettre l'utilisation de TInyTapeout.
