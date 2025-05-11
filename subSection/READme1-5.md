@@ -9,7 +9,6 @@ En tant qu’étudiants en électronique, nous avons utilisé à la fois **VHDL*
 | Lisibilité                      | Plus verbeux, mais plus structuré                     | Plus concis, syntaxe plus proche du C                |
 | Portabilité FPGA ↔ ASIC         | Bon pour FPGA, mais plus difficile à synthétiser ASIC| Plus adapté à la synthèse ASIC (TinyTapeout)        |
 | Types de données                | Très typé, rigide (ex : `std_logic_vector`)          | Plus souple, mais moins strict                       |
-| Simulations (Vivado)           | Très stable                                           | Stable également                                     |
 
 
 ### Problèmes rencontrés et solutions adoptées
