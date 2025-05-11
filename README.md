@@ -58,4 +58,4 @@ Ce projet a pour but de concevoir un processeur simple en utilisant la plateform
 
 ---
 
-> Projet réalisé par Malek Bejaoui et Cossec Célian, encadré par Mathieu Escouteloup.
+> Projet réalisé par Malek Bejaoui et Cossec Célian, encadré par M. Mathieu Escouteloup.
