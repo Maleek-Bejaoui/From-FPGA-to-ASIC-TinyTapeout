@@ -43,6 +43,8 @@ La dominance de l'augmentation des cellules séquentielles par rapport aux cellu
 
 L'analyse combinatoire/séquentielle souligne la prépondérance de la RAM dans l'utilisation des ressources, ce qui est en accord avec l'architecture d'un CPU avec stockage interne.
 
+🔗 Le projet complet est disponible ici :[Implémentation d’un processeur 16bits sur le template TinyTapeout](https://github.com/Maleek-Bejaoui/CPU_vF).
+
 
 ### Optimisation mémoire
 
