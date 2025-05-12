@@ -1,7 +1,24 @@
 ## 2.3.  Résultats et Analyse du CPU RISC_V
 
 ### Travail réalisé
-Ici des codes en Systme Verilog nous ont été fournis. Il s'agissait d'un CPU RISC V. Après quelques modifications effectuées sur ce code (  ) pour pouvoir basculé le projet sur github, nous avons complété le fichier top.v pour bien associé les signaux et permettre l'utilisation de TInyTapeout.
+Ici des codes en Systme Verilog nous ont été fournis. Il s'agissait d'un CPU RISC V. Pour l’adapter au flux de conception TinyTapeout, nous n’avons pas modifié directement le code SystemVerilog généré, mais ajusté les options de compilation de **chisel3** afin d’obtenir un Verilog propre, synthétisable, et compatible avec les contraintes d’OpenLane. Nous avons notamment désactivé l’ajout automatique du mot-clé automatic, qui posait problème lors de la synthèse ASIC, puis nous avons complété le fichier top.v pour bien associé les signaux et permettre l'utilisation de TinyTapeout.
+```Markdown
+```firtoolOpts
+object TT extends App {
+  _root_.circt.stage.ChiselStage.emitSystemVerilog(
+    new TT(),
+    firtoolOpts = Array.concat(
+      Array(
+        "--disable-all-randomization",          // Supprime l'insertion de valeurs aléatoires pour l'initialisation des registres (utile uniquement pour la simulation)
+        "--strip-debug-info",                   // Supprime les informations de debug inutiles dans le fichier Verilog final
+        "--split-verilog",                      // Génère un fichier Verilog par module, au lieu d’un seul fichier global
+        "--lowering-options=noAlwaysCombNoSyncReg" // Évite d’utiliser les blocs always_comb ou always_ff avec `automatic`, ce qui améliore la compatibilité avec la synthèse ASIC
+      ),
+      args
+    )
+  )
+}
+```
 
 ### Obtention des résultats
 
