@@ -2,8 +2,10 @@
 
 ### Travail réalisé
 Ici des codes en Systme Verilog nous ont été fournis. Il s'agissait d'un CPU RISC V. Pour l’adapter au flux de conception TinyTapeout, nous n’avons pas modifié directement le code SystemVerilog généré, mais ajusté les options de compilation de **chisel3** afin d’obtenir un Verilog propre, synthétisable, et compatible avec les contraintes d’OpenLane. Nous avons notamment désactivé l’ajout automatique du mot-clé automatic, qui posait problème lors de la synthèse ASIC, puis nous avons complété le fichier top.v pour bien associé les signaux et permettre l'utilisation de TinyTapeout.
+
+Voici la commande utilisée :
+
 ```Markdown
-```firtoolOpts
 object TT extends App {
   _root_.circt.stage.ChiselStage.emitSystemVerilog(
     new TT(),
