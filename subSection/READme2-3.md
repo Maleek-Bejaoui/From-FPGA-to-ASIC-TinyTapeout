@@ -22,10 +22,10 @@ object TT extends App {
 }
 ```
 
-Design fourni par **M. Mathieu Escouteloup** sur GitLab 
-🔗 [riscv-chisel-design](https://gitlab.com/escou64/riscv-design).
-Design fourni par M. Mathieu Escouteloup sur GitLab.  
+Design fourni par **M. Mathieu Escouteloup** sur GitLab.  
 © Tous droits réservés à M. Mathieu Escouteloup.
+
+🔗 [riscv-chisel-design](https://gitlab.com/escou64/riscv-design).
 
 ### Obtention des résultats
 
