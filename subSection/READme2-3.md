@@ -22,6 +22,11 @@ object TT extends App {
 }
 ```
 
+Design fourni par **M. Mathieu Escouteloup** sur GitLab 
+🔗 [riscv-chisel-design](https://gitlab.com/escou64/riscv-design).
+Design fourni par M. Mathieu Escouteloup sur GitLab.  
+© Tous droits réservés à M. Mathieu Escouteloup.
+
 ### Obtention des résultats
 
 De la même manière que pour le compteur 8 bits et le CPU précédemment détaillé, nous avons pu observer les résultats dans la partie GDS de "Actions" sur Github.
