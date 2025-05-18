@@ -64,7 +64,7 @@ Donc on peut estimer la taille de **notre CPU RISC V sans RAM: environ 6 360 cel
 Ce petit  travail finam nous a permis de maîtriser la conception d'un CPU RISC-V et d'appréhender l'impact des ressources mémoire sur la taille du circuit intégré. Grâce à l'utilisation de TinyTapeout et GitHub, nous avons observé un gain de temps à la génération des résultats et des visualisations. La régression linéaire nous a permis de prédire le nombre de cellules nécessaires en fonction de la taille de la RAM, offrant ainsi une méthode efficace pour anticiper les besoins en ressources. En somme, cette expérience nous a préparés à concevoir et analyser rapidement des ASICs pour des projets futurs.
 
 
-🛠️ ### Remarque très importante : Comportement inattendu des Flip-Flops synthétisés
+### 🚨 Remarque très importante : Comportement inattendu des Flip-Flops synthétisés
 
 Nous avons analysé l’évolution du nombre de flip-flops utilisés dans la synthèse en fonction de la taille de la RAM interne :
 
