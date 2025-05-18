@@ -62,3 +62,21 @@ Donc on peut estimer la taille de **notre CPU RISC V sans RAM: environ 6 360 cel
 
 
 Ce petit  travail finam nous a permis de maîtriser la conception d'un CPU RISC-V et d'appréhender l'impact des ressources mémoire sur la taille du circuit intégré. Grâce à l'utilisation de TinyTapeout et GitHub, nous avons observé un gain de temps à la génération des résultats et des visualisations. La régression linéaire nous a permis de prédire le nombre de cellules nécessaires en fonction de la taille de la RAM, offrant ainsi une méthode efficace pour anticiper les besoins en ressources. En somme, cette expérience nous a préparés à concevoir et analyser rapidement des ASICs pour des projets futurs.
+
+
+🛠️ ### Remarque très importante : Comportement inattendu des Flip-Flops synthétisés
+
+Nous avons analysé l’évolution du nombre de flip-flops utilisés dans la synthèse en fonction de la taille de la RAM interne :
+
+| Taille RAM (octets) | Flip-Flops synthétisés | Cellules totales (`NbrCells`) |
+|---------------------|------------------------|-------------------------------|
+| 128                 | 1942                   | 10778                         |
+| 256                 | 1942                   | 10777                         |
+| 272                 | 1046 (**diminue**)     | 6874 (**diminue fortement**)  |
+
+Selon la [documentation officielle de TinyTapeOut sur la mémoire](https://tinytapeout.com/specs/memory/), la mémoire est implémentée à l’aide de bascules (DFF) synthétisées à partir de cellules logiques standards. Aucune macro SRAM n’est utilisée.
+
+À partir de la taille **128 octets**, nous observons une **baisse soudaine** du nombre de flip-flops, ce qui est **contre-intuitif**. En effet, on s’attendrait à ce que **le nombre de flip-flops augmente proportionnellement** avec la taille de la RAM. De plus, le **nombre total de cellules logiques** utilisées dans la synthèse diminue également, alors qu’il devrait logiquement croître avec l’augmentation de la mémoire.
+
+
+---
